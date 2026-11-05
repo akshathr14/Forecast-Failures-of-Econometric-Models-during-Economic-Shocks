@@ -12,7 +12,7 @@ This research evaluates the forecasting limitations of statistically significant
 ### **Methodology & Rigor**
 * **Variable Selection:** Modeled the **S&P 500** index using the DJIA, Nasdaq, Russell 2000, VIX, and 10-year Treasury yields.
 * **Statistical Diagnostics:**
-    * **Stationarity (ADF):** Verified using Augmented Dickey-Fuller (ADF) tests. Log prices are not stationary (p = 0.82) and daily changes are (p < 0.0001), which supports first differencing.
+    * **Stationarity:** Verified using Augmented Dickey-Fuller (ADF) tests. Log prices are not stationary (p = 0.82) and daily changes are (p < 0.0001), which supports first differencing.
     * **Heteroskedasticity:** Breusch-Pagan test rejects constant variance on both raw and log prices (p < 0.0001); the log transformation did not remove it.
     * **Autocorrelation:** Evaluated using the Durbin-Watson test on the residuals of the model fitted before the 2008 shock (2.0, so little autocorrelation).
 
